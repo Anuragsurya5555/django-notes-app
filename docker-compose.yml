@@ -15,7 +15,7 @@ services:
 
   django_app:
     
-    image: "anurag5555/notes-app:latest"
+    image: "anurag5555/notes-app:latest" 
     container_name: "django_cont"
     ports:
       - "8000:8000"
